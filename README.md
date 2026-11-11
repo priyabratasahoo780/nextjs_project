@@ -21,14 +21,13 @@ A full-stack project and freelance management application built with **Next.js**
 │   └── package.json
 │
 ├── backend/              # Node.js & Express REST API
-│   ├── src/
-│   │   ├── config/       # Database & environment configurations
-│   │   ├── controllers/  # Request handlers (auth, clients, projects)
-│   │   ├── middlewares/  # Authentication & error handling middlewares
-│   │   ├── models/       # Mongoose schemas & data models
-│   │   ├── routes/       # API endpoints definitions
-│   │   ├── services/     # Business logic layer
-│   │   └── utils/        # Utility helpers
+│   ├── config/           # Database & environment configurations
+│   ├── controllers/      # Request handlers (auth, clients, projects)
+│   ├── middlewares/      # Authentication & error handling middlewares
+│   ├── models/           # Mongoose schemas & data models
+│   ├── routes/           # API endpoints definitions
+│   ├── services/         # Business logic layer
+│   └── utils/            # Utility helpers
 │   └── (server setup)
 │
 └── README.md
@@ -91,3 +90,4 @@ npm run dev
 
 ## 📄 License
 This project is open source and available under the [MIT License](LICENSE).
+
